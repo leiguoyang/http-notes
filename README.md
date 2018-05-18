@@ -31,11 +31,14 @@ Accept-Language: zh-CN,zh;q=0.9
 ```
 
 还有response message.
+
 ```
 HTTP/1.1 200 Content-Type: text/plain
-Date: Fri, 18 May 2018 14:20:58 GMT
+Date: Fri, 18 May 2018 14:36:40 GMT
 Connection: keep-alive
 Transfer-Encoding: chunked
+
+Welcome!
 ```
 
 Note: 以上的request message和response message是基于以下node.js的http server.
